@@ -19,6 +19,8 @@ def conect_db():
     conn.commit()
     return conn
 
+EMAIL = "test@test.com"
+
 def load_tasks():
     """Carrega todas as tarefas do banco de dados para um DataFrame."""
     conn = conect_db()

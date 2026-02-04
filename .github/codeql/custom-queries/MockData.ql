@@ -1,3 +1,10 @@
+/**
+ * @name Possible mocked hardcoded data
+ * @id python/mocked-hardcoded-data
+ * @kind problem
+ * @problem.severity warning
+ */
+
 import python
 
 from StringLiteral s

@@ -21,6 +21,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Show CodeQL config files
+        run: |
+          ls -la .github/codeql
+          ls -la .github/codeql/custom-queries
+          cat .github/codeql/codeql-config.yml
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
         with:

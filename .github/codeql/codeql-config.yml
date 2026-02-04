@@ -1,5 +1,0 @@
-queries:
-  - uses: security-and-quality
-
-packs:
-  - ./.github/codeql/custom-queries
